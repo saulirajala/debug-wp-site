@@ -13,7 +13,7 @@ class App extends Component {
 			<Router>
 				<div>
 					<Switch>
-						<Route exact path="/:number" component={Content} onChange={() => console.log( 'mou' )}/>
+						<Route exact path="/:number" component={Content}/>
 						<Route component={Content}/>
 					</Switch>
 					<Background/>
