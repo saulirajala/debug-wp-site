@@ -38,6 +38,7 @@ body {
 	font-family: 'Lato', 'Helvetica', sans-serif;
 	min-width: 6rem;
 	margin: 0 auto;
+	text-decoration: none;
 }
 
 .btn:hover, .btn:focus {
