@@ -78,7 +78,7 @@
       "next_question": 10
     },
     "answer2": {
-      "next_question": 22
+      "next_question": 24
     }
   },
   {
@@ -126,7 +126,7 @@
   {
     "question": "Auttaisiko lisäosan/Coren/teeman päivitys?",
     "answer1": {
-      "next_question": 24
+      "next_question": 26
     },
     "answer2": {
       "text": "Ei/ei oo tullut päivityksiä",
@@ -215,15 +215,14 @@
       "next_question": 10
     },
     "answer2": {
-      "text": "No en.Luulin, ettei se nyt siitä voi johtua",
-      "next_question": 23
+      "text": "No en…",
+      "next_question": 25
     }
   },
   {
     "question": "Auttoiko välimuistin tyhjennys?",
     "answer1": {
-      "text": "Olisko kannattanut heti tyhjentää",
-      "next_question": 10
+      "next_question": 21
     },
     "answer2": {
       "next_question": 10
