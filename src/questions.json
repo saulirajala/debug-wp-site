@@ -73,7 +73,7 @@
     }
   },
   {
-    "question": "Toistuuko ongelma nyt kehitysympärisössä?",
+    "question": "Toistuuko ongelma nyt kehitysympäristössä?",
     "answer1": {
       "next_question": 10
     },
@@ -177,7 +177,7 @@
     }
   },
   {
-    "question": "Hae koodista sopivilla hakusanoilla.Esim.HTML:n seassa olevilla classin nimillä, tms.Löytyikö vikakohta?",
+    "question": "Hae koodista sopivilla hakusanoilla. Esim.HTML:n seassa olevilla classin nimillä, tms. Löytyikö vikakohta?",
     "answer1": {
       "next_question": 20
     },
