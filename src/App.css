@@ -55,8 +55,21 @@ body {
 }
 
 .btn-large {
-	width: 100%;
+	width: 70%;
 	justify-content: flex-start;
+	float: left;
+}
+
+.github-svg {
+	height: 3.8rem;
+	float: right;
+}
+
+.github-svg path {
+	fill: #fff;
+}
+.github-svg:hover path {
+	fill: #d54e21;
 }
 
 .App-arrow {

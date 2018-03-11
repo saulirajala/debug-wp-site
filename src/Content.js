@@ -1,5 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 import leftArrow from './left-arrow.svg';
+import GithubLogo from './GithubLogo';
 import './App.css';
 import { Link } from 'react-router-dom';
 import QuestionsAPI from './QuestionsAPI';
@@ -40,6 +41,9 @@ const Content = ( {match} ) => {
 					 Takaisin
 				 </button>
 				}
+				<a href="https://github.com/saulirajala/debug-wp-site" target="_blank" title="See source">
+					<GithubLogo />
+				</a>
 			</header>
 			<main className="App-main">
 				<p className="App-question">{question.question}</p>
