@@ -51,16 +51,16 @@ const Content = ( {match} ) => {
 			<footer>
 				<div className="btn-group">
 					{answer2.next_question &&
-					 <Link className="btn" to={'/debug-wp-site/' + answer2.next_question} innerRef={loseFocus}>{answer2.text}</Link>
+					 <Link className="btn" to={'/' + answer2.next_question} innerRef={loseFocus}>{answer2.text}</Link>
 					}
 					{answer1.next_question &&
-					 <Link className="btn" to={'/debug-wp-site/' + answer1.next_question} innerRef={loseFocus}>{answer1.text}</Link>
+					 <Link className="btn" to={'/' + answer1.next_question} innerRef={loseFocus}>{answer1.text}</Link>
 					}
 					{answer3.next_question &&
-					 <Link className="btn" to={'/debug-wp-site/' + answer3.next_question} innerRef={loseFocus}>{answer3.text}</Link>
+					 <Link className="btn" to={'/' + answer3.next_question} innerRef={loseFocus}>{answer3.text}</Link>
 					}
 					{answer4.next_question &&
-					 <Link className="btn" to={'/debug-wp-site/' + answer4.next_question} innerRef={loseFocus}>{answer4.text}</Link>
+					 <Link className="btn" to={'/' + answer4.next_question} innerRef={loseFocus}>{answer4.text}</Link>
 					}
 
 				</div>
